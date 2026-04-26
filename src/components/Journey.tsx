@@ -1,20 +1,20 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { GraduationCap, Briefcase } from "lucide-react";
 
 export default function Journey() {
-  const itemFadeIn = {
+  const itemFadeIn: Variants = {
     hidden: { opacity: 0, y: 30 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.6 } }
   };
 
-  const lineVariants = {
+  const lineVariants: Variants = {
     hidden: { height: "0%" },
     visible: { height: "100%", transition: { duration: 1.5, ease: "easeInOut" } }
   };
 
-  const staggerContainer = {
+  const staggerContainer: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,

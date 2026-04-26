@@ -11,15 +11,15 @@ export const metadata: Metadata = {
   authors: [{ name: "Surakshya Chaulagain" }],
   creator: "Surakshya Chaulagain",
   openGraph: {
-    title: "Surakshya | Engineering Portfolio",
+    title: "Surakshya | Software Engineer",
     description: "Explore the projects, skills, and journey of Surakshya Chaulagain.",
-    url: "https://surakshyachaulagain.com.np",
+    url: "https://portfolio-one-psi-obprzymb9s.vercel.app/",
     siteName: "Surakshya's Portfolio",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Surakshya | Engineering Portfolio",
+    title: "Surakshya | Software Engineer",
     description: "Explore the projects, skills, and journey of Surakshya Chaulagain.",
   },
   robots: {
